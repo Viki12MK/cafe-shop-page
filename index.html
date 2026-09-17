@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mellow Bean Café</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/18604365ae.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="/images/Café-logo-removebg.png" alt="Mellow Bean Cafe Logo"></a>
+        </div>
+        <nav>
+
+            <!-- The Hidden Checkbox Toogle -->
+             <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+             <!-- The Hamburger Menu -->
+            <label for="menu-toggle" class="menu-btn">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </label>
+
+            <ul class="nav-links">
+                <li><a href="#hiro-hero-section">Home</a></li>
+                <li><a href="#about-section">About</a></li>
+                <li><a href="#menu-section">Menu</a></li>
+                <li><a href="#contact-section">Contact</a></li>
+            </ul>
+        </nav>
+         
+    </header>
+    <main>
+        <section class="hero" id="hero-section">
+            <div class="hero-txt">
+                <h1>Mellow Bean Cafe</h1>
+                <h3>Good Coffee | Slow Mornings | Good Company</h3>
+                <p>Freshly brewed coffee, homemade treats, <br>and a cozy place to pause, relax, and enjoy the moment.</p>
+                <div class="btn">
+                    <a href class=" btn btn-menu"="#">View Our Menu</a>
+                    <a href class="btn btn-visit"="#">Visit Us</a>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about-section">
+            <div class="about-img">
+                <img src="/images/about-img.jpg" alt="Mellow Bean Cafe">
+            </div>
+            <div class="about-info">
+                <h2>A Little Place to Feel at Home</h2>
+                <p>At Mellow Bean Café, we believe great coffee is about more than what's in your cup.</p>
+                <p>We serve carefully brewed coffee, freshly baked treats, and simple food in a warm and welcoming space. Whether you're starting your morning, meeting a friend, or taking a quiet break, there's always a seat waiting for you.</p>
+                <p>Freshly brewed. Locally loved. Made with care.</p>
+            </div>
+        </section>
+        <section class="favorites">
+            <h2>Our favorites</h2>
+            <div class="favorites-cards">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="/images/latte.jpg" alt="Signature Latte"> 
+                    </div>
+                    <div class="card-info">
+                        <h3>Signature Latte</h3>
+                        <p>Smooth espresso, steamed milk, and a touch of house-made vanilla.</p>
+                        <p class="price">Price: $4.50</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img id="croissant" src="/images/Croissant.jpg" alt="Butter Croissant">
+                    </div>
+                    <div class="card-info">
+                        <h3>Butter Croissant</h3>
+                        <p>Golden, flaky, and freshly baked every morning.</p>
+                        <p class="price">Price: $3.25</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="/images/iced-macha.jpg" alt="Iced Matcha">
+                    </div>
+                    <div class="card-info">
+                        <h3>Iced Matcha</h3>
+                        <p>Creamy matcha, cold milk, and just the right amount of sweetness.</p>
+                        <p class="price">Price: $4.75</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="menu-preview" id="menu-section">
+            <h2>Something for Every Mood</h2>
+            <p>From your morning espresso to a refreshing afternoon drink, there's something for everyone.</p>
+            <div class="menu-preview-cards">
+                <div class="menu-preview-card">
+                    <div class="menu-preview-card-img">
+                        <img src="/images/coffees-menu.jpg" alt="image of coffee">
+                    </div>
+                    <div class="menu-preview-card-info">
+                        <span class="icon"><i class="fa-solid fa-mug-hot"></i></span><h3>Coffee</h3>
+                        <p>Espresso — $3.00</p>
+                        <p>Americano — $3.25</p>
+                        <p>Cappuccino — $4.25</p>
+                        <p>Latte — $4.50</p>
+                    </div>
+                    <div class="menu-preview-card-btn">
+                        <a href="#">View Menu</a>
+                    </div>
+                </div>
+
+                <div class="menu-preview-card">
+                    <div class="menu-preview-card-img">
+                        <img src="/images/pastry-menu.jpg" alt="images of pastries">
+                    </div>
+                    <div class="menu-preview-card-info">
+                        <span class="icon"><i class="fa-solid fa-cookie"></i></span><h3>Fresh Bakes</h3>
+                        <p>Butter Croissant — $3.25</p>
+                        <p>Cinnamon Roll — $3.75</p>
+                        <p>Blueberry Muffin — $3.50</p>
+                        <p>Banana Bread — $3.75</p>
+                    </div>
+                    <div class="menu-preview-card-btn">
+                        <a href="#">View Menu</a>
+                    </div>
+                </div>
+
+                <div class="menu-preview-card">
+                    <div class="menu-preview-card-img">
+                        <img src="/images/cold-drinks-menu.jpg" alt="images of cold drinks">
+                    </div>
+                    <div class="menu-preview-card-info">
+                        <span class="icon"><i class="fa-solid fa-martini-glass-citrus"></i></span><h3>Cold Drinks</h3>
+                        <p>Iced Latte — $4.75</p>
+                        <p>Iced Matcha — $4.75</p>
+                        <p>Cold Brew — $4.50</p>
+                        <p>Fresh Lemonade — $4.00</p>
+                    </div>
+                    <div class="menu-preview-card-btn">
+                        <a href="#">View Menu</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="why-mellow-bean">
+            <h2>Made for Your Everyday Moments</h2>
+            <div class="why-mellow-bean-cards">
+                <div class="why-mellow-bean-card">
+                    <span class="icon">
+                        <img src="/images/coffee-bean.png" alt="icon of coffee">
+                    </span>
+                    <h3>Quality Coffee</h3>
+                    <p>We carefully select our beans and prepare every cup with attention to detail.</p>
+                </div>
+                <div class="why-mellow-bean-card">
+                    <span class="icon">
+                        <img src="/images/fresh.png" alt="icon of fresh plant">
+                    </span><h3>Fresh Every Day</h3>
+                    <p>Our pastries and baked treats are prepared fresh so there's always something delicious waiting for you.</p>
+                </div>
+                <div class="why-mellow-bean-card">
+                    <span class="icon">
+                        <img src="/images/cozy.png" alt="icon of cozy">
+                    </span><h3>A Cozy Space</h3>
+                    <p>Come in for a quick coffee, stay for a while. Our space is made for relaxing, connecting, and slowing dow</p>
+                </div>
+            </div>
+        </section>
+        <section class="visit-us">
+            <h2>Come Say Hello</h2>
+            <p>Your next favorite coffee spot might be just around the corner.</p>
+            <div class="visit-us-info">
+                <address>
+                    <span class="icon"></span>
+                    <p>123 Main Street</p>
+                    <p>Los Angeles, CA 12345</p>
+                    <p>(123) 456-7890</p>
+                    <p>info@mellowbeancafe.com</p>
+                </address>
+                <hr>
+                <div class="working-hours">
+                    <p>Monday - Friday: 7am - 5pm</p>
+                    <p>Saturday: 7am - 2pm</p>
+                    <p>Sunday: Closed</p>
+                </div>
+                
+                <div class="visit-us-map">
+                    <iframe width="100%" height="250" style="border:0;" allowfullscreen="" 
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade" 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.6840217234812!2d-118.24645952525984!3d34.05197561774615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c648d7dfc2e1%3A0xe4d8ab77649d0505!2s123%20Main%20St%2C%20Los%20Angeles%2C%20CA%2090012%2C%20USA!5e0!3m2!1sen!2sil!4v1789296247605!5m2!1sen!2sil"></iframe>
+                </div>
+            </div>
+            
+        </section>
+        <section class="contact" id="contact-section">
+            <div class="final-cta">
+                <h2> Your Table Is Waiting</h2>
+                <p>Take a break. Grab a coffee. Stay awhile.</p>
+                <div class="final-cta-btn">
+                    <a href="#" id="our-menu">View Our Menu</a>
+                    <a href="#" id="directions">Get Directions</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h1>Mellow Bean Cafe</h1>
+        <a href="index.html"><img src="/images/Café-logo-removebg.png" alt="Mellow Bean Cafe Logo"></a> 
+        <div class="quick-links">
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a> 
+            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>   
+        <p>© 2023 Mellow Bean Cafe. All rights reserved.</p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
